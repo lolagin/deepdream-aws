@@ -16,7 +16,7 @@ pem=~/.ssh/reuse-elasticsearch.pem
 # Don't forget to chmod go-rwx $pem
 
 # Change 'danielvarga' so that this points to your fork:
-ssh -i $pem ubuntu@$dns wget https://raw.githubusercontent.com/danielvarga/deepdream-aws/master/setup.sh
+ssh -i $pem ubuntu@$dns wget https://raw.githubusercontent.com/lolagin/deepdream-aws/master/setup.sh
 # Also, in your fork, change the git SSH URL in setup.sh to point to your fork.
 
 ssh -i $pem ubuntu@$dns bash setup.sh
