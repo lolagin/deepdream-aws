@@ -23,8 +23,8 @@ ssh -i $pem ubuntu@$dns bash setup.sh
 # ...wait some, and then:
 scp -i $pem ubuntu@$dns:./deepdream-aws/daniel.conv2-3x3_reduce.jpg .
 # ...wait a lot, and then:
-mkdir daniel
-scp -i $pem ubuntu@$dns:./deepdream-aws/daniel.*.jpg daniel/
+mkdir lolpics
+scp -i $pem ubuntu@$dns:./deepdream-aws/lols.*.jpg daniel/
 
 #####################
 
